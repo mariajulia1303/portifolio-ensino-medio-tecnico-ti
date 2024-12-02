@@ -1,8 +1,8 @@
 const responseMessage = document.getElementById("responseMessage");
 document.getElementById('myform').addEventListener('submit', async (e) => {
     e.preventDefault();
-    const inputEmail = document.getElementById("exampleFormControlInput2").value;
-    const inputText = document.getElementById("exampleFormControlTextarea2").value;
+    const inputEmail = document.getElementById("exampleFormControlInput1").value;
+    const inputText = document.getElementById("exampleFormControlTextarea1").value;
 
     console.log(inputEmail, inputText);
 
